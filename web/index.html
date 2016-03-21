@@ -16,17 +16,19 @@
     <body>
         <header class="main-header">
             <div class="container">
-                <nav class="main-navigation">
-                    <ul>
-                        <li><a href="#">Информация</a></li>
-                        <li><a href="#">Новости</a></li>
-                        <li><a href="#">Прайс-лист</a></li>
-                        <li><a href="#">Магазин</a></li>
-                        <li><a href="#">Контакты</a></li>
-                    </ul>
-                </nav>
-                <div class="user-block">
-                    <a class="login" href="#">Вход</a>
+                <div class="row">
+                    <nav class="main-navigation col-lg-9">
+                        <ul>
+                            <li><a href="#">Информация</a></li>
+                            <li><a href="#">Новости</a></li>
+                            <li><a href="#">Прайс-лист</a></li>
+                            <li><a href="#">Магазин</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <div class="user-block col-offset-1 col-lg-2">
+                        <a class="login" href="#">Вход</a>
+                    </div>
                 </div>
             </div>
         </header>
@@ -34,22 +36,22 @@
             <div class="logo">
                 <img src="img/logo.png" width="368" height="200" alt="Barbershop">
             </div>
-            <section class="features">
-                <div class="feature-item">
+            <section class="features row">
+                <div class="feature-item col-lg-4">
                     <div class="feature-name">Быстро</div>
                     <p>Мы сделаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладатель стильной стрижки-минутки!</p>
                 </div>
-                <div class="feature-item">
+                <div class="feature-item col-lg-4">
                     <div class="feature-name">Круто</div>
                     <p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
                 </div>
-                <div class="feature-item">
+                <div class="feature-item col-lg-4">
                     <div class="feature-name">Дорого</div>
                     <p>Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
                 </div>
             </section>
-            <div class="index-content">
-                <div class="index-content-left">
+            <div class="index-content row">
+                <div class="index-content-left col-lg-6">
                     <h2 class="index-content-title">Новости</h2>
                     <ul class="news-preview">
                         <li>
@@ -62,7 +64,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="index-content-right">
+                <div class="index-content-right col-lg-6">
                     <h2 class="index-content-title">Фотогалерея</h2>
 
                     <div class="gallery">
@@ -74,8 +76,8 @@
                     </div>
                 </div>
             </div>
-            <div class="index-content">
-                <div class="index-content-left">
+            <div class="index-content row">
+                <div class="index-content-left col-lg-6">
                     <h2 class="index-content-title">Контактная информация</h2>
                     <p>БАРБЕРШОП «БОРОДИНСКИЙ»<br>
                         АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>
@@ -88,7 +90,7 @@
                     <a class="btn" href="#">Как проехать</a>
                     <a class="btn" href="#">Обратная связь</a>
                 </div>
-                <div class="index-content-right">
+                <div class="index-content-right col-lg-6">
                     <h2 class="index-content-title">Записаться</h2>
                     <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
                     <form class="appointment-form" action="#" method="post">
@@ -103,30 +105,32 @@
         </main>
         <footer class="main-footer">
             <div class="container">
-                <div class="footer-contacts">
-                    <p>Барбершоп «Бородинский»<br>
-                        Адрес: г. Санкт-Петербугр, ул. Б. Конюшенная, д. 19/8<br>
-                        <a href="#">Как нас найти?</a><br>
-                        Телефон: +7 (495) 666-02-66
-                    </p>
-                </div>
-                <div class="footer-social">
-                    <p>Давайте дружить!</p>
-                    <ul class="social">
-                        <li>
-                            <a class="social-btn social-btn-vk" href="#">Вк</a>
-                        </li>
-                        <li>
-                            <a class="social-btn social-btn-fb" href="#">Fb</a>
-                        </li>
-                        <li>
-                            <a class="social-btn social-btn-inst" href="#">Inst</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-copyright">
-                    <p>Разработано:</p>
-                    <a class="btn" href="#">HTML academy</a>
+                <div class="row">
+                    <div class="footer-contacts col-lg-4">
+                        <p>Барбершоп «Бородинский»<br>
+                            Адрес: г. Санкт-Петербугр, ул. Б. Конюшенная, д. 19/8<br>
+                            <a href="#">Как нас найти?</a><br>
+                            Телефон: +7 (495) 666-02-66
+                        </p>
+                    </div>
+                    <div class="footer-social col-lg-4">
+                        <p>Давайте дружить!</p>
+                        <ul class="social">
+                            <li>
+                                <a class="social-btn social-btn-vk" href="#">Вк</a>
+                            </li>
+                            <li>
+                                <a class="social-btn social-btn-fb" href="#">Fb</a>
+                            </li>
+                            <li>
+                                <a class="social-btn social-btn-inst" href="#">Inst</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-copyright col-lg-4">
+                        <p>Разработано:</p>
+                        <a class="btn" href="#">HTML academy</a>
+                    </div>
                 </div>
             </div>
         </footer>
